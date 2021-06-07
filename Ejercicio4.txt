@@ -1,0 +1,22 @@
+Proceso Ejercicio_4
+	mayor<-0;
+	menor<-0;
+	Escribir "Ingrese las 20 edades";
+	para x=1 hasta 20 con paso 1 Hacer
+		leer edad;
+		si x==1 entonces
+			mayor<-edad;
+			menor<-edad;
+		Sino
+			si mayor<edad Entonces
+				mayor<-edad;
+			FinSi
+			si menor>edad Entonces
+				menor<-edad;
+			FinSi
+		FinSi
+	FinPara
+	Escribir "La persona con mayor edad tiene: ",mayor;
+	Escribir "La persona con menor edad es: ",menor;
+	
+FinProceso
